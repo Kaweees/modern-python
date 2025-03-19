@@ -66,5 +66,5 @@ lint.ignore = ["E501"]
 extend-exclude = ["__pycache__", "docs", "site", ".tmp"]
 
 [tool.pytest.ini_options]
-cache_dir = ".pytest_cache"
+cache_dir = "/home/vscode/workspace/.cache/pytest"
 pythonpath = [".", "scripts", "src"]
